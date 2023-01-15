@@ -1,72 +1,78 @@
-body{
+*{
     margin: 0;
-    background-color: #e1b7bf;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-div{
-    width: 400px;
-    height: 500px;
-    display: inline-block;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    
 }
 
-section{
-    width: 100vw;
-    height: 100vh;
+header{
+    height: 100px;
+    color: black;
+    background-color: rgb(151, 147, 147);
+    
+}
+
+.header{
+    max-width: 1140px;
+    height: 100px;
+    margin: auto;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    background-color: rgb(66, 32, 135);
     align-items: center;
 }
 
-.place-buttom{
-    display: block;
-    width: 100%;
-    padding: 10px 12px;
-    background-image: none;
-    background-clip: padding-box;
-    border: none;
-    border-radius: 16px !important;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #ffffff;
-    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-    background-color: transparent;
-    color: inherit;
-    height: auto;
-    color: #111111;
-    background-color: #ffffff;
-    font: inherit;
+.logo{
+    width: 200px;
 
+    
+    background-color: brown;
 }
 
-#buttom{
-    font-size: 1.125rem;
-    letter-spacing: 3px;
-    border-style: none;
-    font-weight: 700;
+.menu{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(218, 179, 179);
+}
+
+.img-logo{
+    width: 220px;
+    height: 220px;
+}
+
+.menu ul, 
+.menu li {
+    list-style: none;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu li a {
+    color: #fff;
     text-transform: uppercase;
-    width: 100%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-image: none;
-    background-color: #e1b7bf !important;
-    color: #59437a !important;
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-bottom: 5px solid rgb(243, 243, 243);
+    background-color: rgb(83, 150, 194);
 }
 
-.container-form{
-    background-color: #59437a;
-    text-align: center;
-    border-radius: 16px !important;
-    padding: 40px 50px;
-    
+.menu li a:hover{
+    border-bottom: 5px solid #FF1244 ;
 }
 
-.titulo-form-contato{  
-    
-    color: #e1b7bf !important;
-    text-align: left;
-    font-weight: 700;
-    font-size: 3rem;
+.menu .active a {
+    border-bottom: 5px solid #FF1244 ;
+
 }
-
-

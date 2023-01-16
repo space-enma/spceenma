@@ -7,6 +7,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
+   
     
 }
 
@@ -37,7 +38,7 @@ header{
     flex: 1;
     display: flex;
     justify-content: flex-end;
-    background-color: rgb(218, 179, 179);
+    background-color: rgb(172, 58, 58);
 }
 
 .img-logo{
@@ -65,7 +66,8 @@ header{
     display: flex;
     align-items: center;
     border-bottom: 5px solid rgb(243, 243, 243);
-    background-color: rgb(83, 150, 194);
+    background-color: rgb(2, 162, 171);
+    color: #000;
 }
 
 .menu li a:hover{

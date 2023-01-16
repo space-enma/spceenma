@@ -2,7 +2,7 @@
 namespace src;
 
 class Config {
-    const BASE_DIR = '/spceenma/public';
+    const BASE_DIR = '/spaceenma/public';
 
     const DB_DRIVER = 'mysql';
     const DB_HOST = 'localhost';

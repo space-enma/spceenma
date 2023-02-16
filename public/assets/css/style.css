@@ -1051,21 +1051,13 @@ footer{
         display: grid;
         height: 700px;
         font-size: 60%;
-       padding-left: 120px;
        text-align: center;
        justify-items: center;
        align-items: center;
     }
-
-    .area-conteudo-um{
-        text-align: center;
-        padding-right: 150px;
-        max-width: 500px;
-    }
     .titulo-conteudo-um{
         font-size: 40px;
-        padding-bottom: 26px;
-        color: #ffff;
+        color: #ffffff;
         padding-bottom: 40px;
     }
    
@@ -1077,23 +1069,32 @@ footer{
         height: 900px;
     }
 
-    .paragrafo-conteudo-um{
-        font-size: 18px;
-        text-align: center;      
+    .area-conteudo-um{
+        text-align: center;
+        padding-right: 0px;
     }
 
+    .paragrafo-conteudo-um{
+        font-size: 18px;
+        text-align: center; 
+        max-width: 300px;       
+    }
+    
     .imagem-area-dois{
         width: 300px;
         height: 300px;
     }
     .area-conteudo-dois{
-        padding-right: 200px;
+        padding-left: 0px;
         padding-bottom: 30px;
     }
 
     /*servicos*/
 
     .servicos{
+        display: grid;
+        align-items: center;
+        justify-items: center;     
         height: 1100px;
     }
     .servicos-text h3{
@@ -1108,8 +1109,10 @@ footer{
     }
 
     .sevico-area-img img{
-        width: 60px;
-        height: 60px;
+        margin-top: 30px;
+        margin-left: 14px;
+        width: 50px;
+        height: 50px;
     }
     
     .servicos-area-position{
@@ -1121,26 +1124,42 @@ footer{
     }    
 
     .servico-item{
-        width: 400px;
+        width: 340px;
         height: 200px;
         margin-bottom: 20px;
         box-shadow: 0px 0px 38px 0px rgb(0 0 0 / 10%);
         border-radius: 10px;
     }
     .sevico-area-text{
-        margin-top: -50px;
+        margin-top: 26px;
+        padding-left: 14px;
+        padding-top: 0px;
     }
 
+    .servico-item-area{
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+    .atualizacao{
+        width: 70px;
+    }
+    
 
     .sevico-area-text p{
         padding-right: 10px;
         font-size: 13px;
         line-height: 18px;
     }
+    .servicos-area{
+        padding-right: 0px;    
+    }
 
     .sevico-area-text h1{
-        padding-bottom: 18px;
+        padding-bottom: 10px;
         font-size: 20px;
+    }
+    .sevico-area-text h3{
+        font-size: 14;
     }
 
     /*info site no ar*/
@@ -1150,6 +1169,9 @@ footer{
 
     .info-siteno-ar{
         display: grid;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
         height: 800px;
         margin-bottom: 800px;
         margin-top: -150px;
@@ -1160,9 +1182,11 @@ footer{
     }
 
     .info-seu-1{
-        width: 300px;
         height: 320px;
         margin-bottom: 40px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     
     .info-seu-1 h1{
@@ -1219,6 +1243,8 @@ footer{
         height: 250px;
         background-color: #ffffff00;
         padding-bottom: 400px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     
@@ -1244,11 +1270,15 @@ footer{
    .carousel-img{
         height: inherit;
         width: 200vw;
-        margin-right: 10px;  
+        margin-right: 10px; 
+        
     }
+    .container-carousel{
+        margin-right: 14px;
+   }
     .carousel-img img{
         height: 350px;
-        width: 480px;
+        width: 390px;
     }
 
     .carousel-control{
@@ -1264,6 +1294,7 @@ footer{
 
     /*Contato*/
 
+  
     .contato-area{
         margin-right: 0px;
         margin-top: 60px;
@@ -1295,17 +1326,25 @@ footer{
 
     .contato{
         height: 1000px;
+        display: grid;
+        align-items: center;
+        justify-content: center;
     }
+    
 
     .contato1{
         display: grid;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+        color: #00000000;
     }
     
     .contato-form{
-        width: 350px;
+        width: 320px;
         height: 550px;
         border-radius: 10px;
-        margin-left: 40px;
+        margin-left: 0px;
     }
     .place-buttom{
         height: 40px;

@@ -60,7 +60,7 @@
             <div class="servicos-area1">
                 <div class="servico-item servico-area3 ">
                 <div class="servico-item-area">
-                        <div class="sevico-area-img">   
+                        <div class="sevico-area-img atualizacao">   
                              <img src="<?=$base;?>/assets/img/iconeservico/atualizacao-do-sistema.png" alt="">       
                         </div>
                         <div class="sevico-area-text">
@@ -246,7 +246,7 @@
         </div>
     </section>
 
-    <section class="contato">
+    <section class="contatoo">
         <?php $render('../pages/formulario'); ?>
     </section>
 

@@ -1,7 +1,7 @@
 <html>
 <head>
     <title>Space Enma</title>
-    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="viewport"  content="width=device-width, user-scalable=no">
     <link rel="stylesheet" href="<?=$base;?>/assets/css/style.css">
 </head>
 <header>

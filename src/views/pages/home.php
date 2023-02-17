@@ -247,7 +247,7 @@
     </section>
 
     <section class="contatoo">
-        <?php $render('../pages/formulario'); ?>
+        <?php $render('../pages/formularioo'); ?>
     </section>
 
     <script src="<?=$base;?>/assets/js/home.js"> </script>

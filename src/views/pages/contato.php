@@ -1,6 +1,6 @@
 <?php $render('header'); ?>
 
-<?php $render('../pages/formulario'); ?>
+<?php $render('../pages/formularioo'); ?>
 
 
 <?php $render('footer'); ?>

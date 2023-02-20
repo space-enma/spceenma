@@ -1,3 +1,4 @@
+
 let totalslides = document.querySelectorAll('.carousel-img').length;
 let currentSlide = 0;
 
@@ -31,6 +32,5 @@ function updateMargin(){
 }
 
 setInterval(goNext, 5000);
-
 
 

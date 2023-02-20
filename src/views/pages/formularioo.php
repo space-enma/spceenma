@@ -9,6 +9,8 @@
                     <div class="contato-text-area1">
                         <h1>Telefone</h1>
                         <p>(31) 996822917</p>
+                        <p><a target="_blank" href="https://wa.me/31996822917">whatsapp</a></p>
+                        
                     </div>                      
                 </div>                            
             </div>
@@ -20,7 +22,7 @@
                 <div class="contato-text-area">
                     <div class="contato-text-area2">
                         <h1>Email</h1>
-                        <p>spaceenma@gmail.com</p> 
+                        <p>spaceenma@spaceenma<br>.com.br</p> 
                     </div>                    
                 </div>                     
             </div>
@@ -28,25 +30,25 @@
         <div class="contato-form">  
             <div class="contato-text">
                 <h1>Contate-Nos</h1> 
-                <p>Entre em contato com a nossa equipe caso tenha alguma  duvida ou tenha interece em ter um site online </p>
+                <p>Entre em contato com a nossa equipe caso tenha alguma dúvida ou tenha interesse em ter um site online. </p>
             </div>
-                    
-            <form method="Post" action="<?=$base;?>/contato">
+                      
+            <form class="form-form" method="Post" action="<?=$base;?>/contato">
                 <label >
                     <input class="place-buttom" type="text" name="name"
-                    placeholder="Nome" >
+                    placeholder="Nome" required>
                 </label>
                 <label >
                     <input class="place-buttom" type="email" name="email"
-                    placeholder="Email" >
+                    placeholder="Email" required>
                 </label><br><br>
                 <label >
                     <input class="place-buttom-tel" type="number" name="telefone"
-                    placeholder="Telefone" >
+                    placeholder="Telefone" required>
                 </label><br><br>
                 <label >
                     <input class="place-buttom-text" type="text" name="text"
-                    placeholder="Por favor descreva o que você precisa." >
+                    placeholder="Por favor descreva o que você precisa." required>
                 </label><br><br>
 
                 <input id="buttom" type="submit" value="Enviar"/>

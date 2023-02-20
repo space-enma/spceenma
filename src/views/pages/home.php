@@ -2,30 +2,30 @@
 <main>
     <section class="section-area-um">
         
-        <div class="area-conteudo-um"> 
+        <div class="area-conteudo-um "> 
             <img class="fundo-img" src="<?=$base;?>/assets/img/planodefundo/fundomenu.jpg" alt="">      
             <h1 class="titulo-conteudo-um">Bem vindo a </br> <span><color1>Space</color1>  <color> Enma </color></span>  </h1>
-            <p class="paragrafo-conteudo-um">Aqui construimos o site ideal para o seu negocio
-              basta agendar uma consulta com a nossa equipe 
+            <p class="paragrafo-conteudo-um">Aqui construímos o site ideal para o seu negócio
+            basta agendar uma consulta com a nossa equipe.
            </p>
 
-            <button class="button-are-um">Entre em contato</button>
+           <a href="<?=$base;?>/contato"> <button class="button-are-um"> Entre em contato </button> </a>
         </div>
 
-        <div class="area-conteudo-dois">
+        <div class="area-conteudo-dois ">
             <img class="imagem-area-dois" src="<?=$base;?>/assets/img/fotomenu.svg" alt="">
         </div>
     </section>
 
     <section class="servicos">
         <div class="servicos-text">
-            <h3>NOSSOA SERVIÇOS</h3>
+            <h3>NOSSOS SERVIÇOS</h3>
             <h1>Criamos Sites Para o seu Negocio</h1>
         </div>
 
         <div class="servicos-area-position">
             <div class="servicos-area">
-                <div class="servico-item servico-area1 ">
+                <div class="servico-item servico-area1 anime">
                     <div class="servico-item-area">
                         <div class="sevico-area-img">   
                              <img src="<?=$base;?>/assets/img/iconeservico/code.png" alt="">       
@@ -34,15 +34,15 @@
                             <h3>Desenvolvimento</h3>
                             <h1>Criamos seu site do zero </h1>
                             <p> Nossa equipe especializada fara todo um processo
-                                para criacao do seu site deixando com acara 
-                                do seu negocio
+                            para criação do seu site deixando com acara
+                            do seu negócio.
                             </p>
                         </div>
                     </div>
                     
                 </div>
 
-                <div class="servico-item servico-area2 ">
+                <div class="servico-item servico-area2 anime">
                 <div class="servico-item-area">
                         <div class="sevico-area-img">   
                              <img src="<?=$base;?>/assets/img/iconeservico/suporte-ao-cliente.png" alt="">       
@@ -50,15 +50,15 @@
                         <div class="sevico-area-text">
                             <h3>Suporte</h3>
                             <h1>Oferecemos serviços de suporte </h1>
-                            <p> seja o problema que você vie ater saiba que nossa
-                                equipe trabalhara para solucionar o seu problema o mais rapido possivel 
+                            <p> Seja o problema que você vier ater saiba que nossa
+                            equipe trabalhara para solucionar o seu problema o mais rápido possível.
                             </p>
                         </div>
                     </div>
                 </div>            
             </div>
             <div class="servicos-area1">
-                <div class="servico-item servico-area3 ">
+                <div class="servico-item servico-area3 anime">
                 <div class="servico-item-area">
                         <div class="sevico-area-img atualizacao">   
                              <img src="<?=$base;?>/assets/img/iconeservico/atualizacao-do-sistema.png" alt="">       
@@ -66,14 +66,14 @@
                         <div class="sevico-area-text">
                             <h3>atualização</h3>
                             <h1>atualização de site  </h1>
-                            <p> criamos uma nova versão para seu site
-                                tambem adicionamos melhorias 
+                            <p> criamos uma nova versão para seu site e
+                            também adicionamos melhorias.
                             </p>
                         </div>
                     </div>
                 </div>
 
-                <div class="servico-item servico-area4 ">
+                <div class="servico-item servico-area4 anime">
                     <div class="servico-item-area">
                         <div class="sevico-area-img">   
                             <img src="<?=$base;?>/assets/img/iconeservico/seo.png" alt="">       
@@ -81,9 +81,9 @@
                         <div class="sevico-area-text">
                             <h3>SEO</h3>
                             <h1>Serviço de SEO</h1>
-                            <p>Aplicamos tecnica de SEO para performa seu site
+                            <p>Aplicamos técnica de SEO para performa seu site
                                 e tentar fazer ele aparecer em primeiro na hora da
-                                pesquisa
+                                pesquisa.
                             </p>
                         </div>
                     </div>
@@ -104,7 +104,7 @@
 
                 <h1>Tenha autoridade na internet</h1>
 
-                <p>passe a ter mais credibilidade e autoridade subindo seu site no ar  </p>
+                <p>Passe a ter mais credibilidade e autoridade tendo um site online.</p>
                         
             </div>
             <div class="info-seu-1">
@@ -112,7 +112,7 @@
                 
                 <h1>Um passo a frente do seu concorrente </h1>
 
-                <p>Com o seu site no ar aumenta a sua visibilidade quando o cliente fizer uma pesquisa no google  </p>
+                <p>Com o seu site online aumenta a sua visibilidade quando o cliente fizer uma pesquisa no Google.  </p>
 
             </div>
             <div class="info-seu-1">
@@ -120,14 +120,14 @@
                 
                 <h1>Sites personalizados</h1>
 
-                <p>Criamos um site do seu gosto com a cara do seu negocio  </p>
+                <p>Criamos um site do seu gosto com a cara do seu negocio.  </p>
             </div>
             <div class="info-seu-1">
                 <img class="info-1-img" src="<?=$base;?>/assets/img/confiabilidade.png" alt="">
                 
                 <h1>Confiabilidade </h1>
 
-                <p>aqui voce tem um serviço de qualidade e tudo dentro do prazo </p>
+                <p>aqui voce tem um serviço de qualidade e tudo dentro do prazo. </p>
             </div>
         </div>
     </section>
@@ -137,7 +137,8 @@
         <div class="equipe-text">
             <img class="color" src="<?=$base;?>/assets/img/bg-6.png" alt="">
             <p>MEMBROS DO TIME</p>
-            <h1>Conheça os membros da nossa equipe <br> proficional e especializada</h1>
+            <h1>Conheça os membros da nossa equipe <br>
+            profissional e especializada.</h1>
             <p id="equipe-text-p">O segredo de um grande sucesso esta no trabalho de uma grande equipe.</p>
         </div>
 
@@ -148,17 +149,14 @@
 
                         <div class="caixa-social">
                             <ul class="">
-                                <li><a href=""><img src="<?=$base;?>/assets/img/instagram.png" alt=""></a></li>
+                            <li><a target=_blank href="https://www.instagram.com/leandrononatoyt/"><img src="<?=$base;?>/assets/img/instagram.png" alt=""></a></li>
 
-                                <li><a href=""><img src="<?=$base;?>/assets/img/linkedin.png" alt=""></a></li>
+                            <li><a target=_blank href="https://www.linkedin.com/in/leandro-nonato-13246925b/"><img src="<?=$base;?>/assets/img/linkedin.png" alt=""></a></li>
 
-                                <li><a href=""><img src="<?=$base;?>/assets/img/facebook.png" alt=""></a></li> 
+                            <li><a target=_blank href="https://www.facebook.com/profile.php?id=100010006247836"><img src="<?=$base;?>/assets/img/facebook.png" alt=""></a></li> 
                             </ul>
-                        </div>
-
-                        
-                    </div>
-                        
+                        </div>        
+                    </div>                      
                     <div class="caixa2">
                         <div class="caixa2-a">
                             <div class="caixa2-a-text">
@@ -171,15 +169,15 @@
 
             <div class="caixa">
                     <div class="thumb">
-                            <img src="<?=$base;?>/assets/img/pessoa1.jpg" alt="" class="img">      
+                            <img src="<?=$base;?>/assets/img/Luciano1.png" alt="" class="img">      
 
                         <div class="caixa-social">
                             <ul class="">
-                                <li><a href=""><img src="<?=$base;?>/assets/img/instagram.png" alt=""></a></li>
+                                <li><a target=_blank href="https://www.instagram.com/luciano_nonatog/"><img src="<?=$base;?>/assets/img/instagram.png" alt=""></a></li>
 
-                                <li><a href=""><img src="<?=$base;?>/assets/img/linkedin.png" alt=""></a></li>
+                                <li><a target=_blank href="https://www.linkedin.com/in/luciano-nonato-5523b0203/"><img src="<?=$base;?>/assets/img/linkedin.png" alt=""></a></li>
 
-                                <li><a href=""><img src="<?=$base;?>/assets/img/facebook.png" alt=""></a></li> 
+                                <li><a target=_blank href="https://www.facebook.com/profile.php?id=100082269806418"><img src="<?=$base;?>/assets/img/facebook.png" alt=""></a></li> 
                             </ul>
                         </div>                    
                     </div>
@@ -199,20 +197,21 @@
 
                         <div class="caixa-social">
                             <ul class="">
-                                <li><a href=""><img src="<?=$base;?>/assets/img/instagram.png" alt=""></a></li>
+                            <li><a  href=""><img src="<?=$base;?>/assets/img/instagram.png" alt=""></a></li>
 
-                                <li><a href=""><img src="<?=$base;?>/assets/img/linkedin.png" alt=""></a></li>
+                            <li><a href=""><img src="<?=$base;?>/assets/img/linkedin.png" alt=""></a></li>
 
-                                <li><a href=""><img src="<?=$base;?>/assets/img/facebook.png" alt=""></a></li> 
+                            <li><a href=""><img src="<?=$base;?>/assets/img/facebook.png" alt=""></a></li> 
                             </ul>
-                        </div>
-
-                        
+                        </div>                       
                     </div>
                         
                     <div class="caixa2">
                         <div class="caixa2-a">
-                           
+                            <div class="caixa2-a-text">
+                                <h1>Em Breve</h1>
+                                <p>Em Breve</p>
+                            </div>   
                         </div>
                     </div> 
             </div>
@@ -252,6 +251,7 @@
 
     <script src="<?=$base;?>/assets/js/home.js"> </script>
     <script src="<?=$base;?>/assets/js/menu.js"> </script>
+    <script src="<?=$base;?>/assets/js/animation.js"> </script>
 </main>
 
 <?php $render('footer'); ?>

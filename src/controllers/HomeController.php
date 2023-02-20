@@ -8,6 +8,15 @@ class HomeController extends Controller {
     public function home() {
         $this->render('home');
     }
+    public function equipe() {
+        $this->render('equipe');
+    }
+    public function servicos() {
+        $this->render('servicos');
+    }
+    public function sobre() {
+        $this->render('sobre');
+    }
 
     public function contato() {
         $this->render('contato');

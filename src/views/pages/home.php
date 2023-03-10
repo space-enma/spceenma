@@ -145,7 +145,7 @@
         <div class="equipe-caixa">
             <div class="caixa">
                     <div class="thumb">
-                            <img src="<?=$base;?>/assets/img/pessoa1.jpg" alt="" class="img">      
+                            <img src="<?=$base;?>/assets/img/leandro.png" alt="" class="img">      
 
                         <div class="caixa-social">
                             <ul class="">
